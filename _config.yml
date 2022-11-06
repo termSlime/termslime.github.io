@@ -1,0 +1,28 @@
+plugins:
+  - titles-from-headings
+  - jekyll-feed
+  - jekyll-tagging
+  - jekyll-archives
+  - jekyll-tagging-related_posts
+  - jekyll_image_encode
+  - jekyll-youtube
+  - jemoji
+  - Liquid_reading_time
+  - jekyll-toc
+  - Liquid-md5
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-google_search_console_verification_file
+  - jekyll-github-metadata
+  - jekyll-rendering
+  - jekyll-pwa-workbox
+  - jekyll-assets
+  - jekyll-minifier
+  - jekyll-auth
+  - jekyll-manager
+
+name: termSlime
+title: termSlime
+description: a website for minecraft player
+url: https://termslime.github.io
