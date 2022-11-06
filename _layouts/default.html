@@ -37,13 +37,10 @@
                   Pages
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item disabled" href="/pages/gens/" tabindex="-1" aria-disabled="true">Generators</a></li>
+                  {% for item in site.data.mcgens %}
+                    <a class="nav-link" href="{{ item.link }}" tabindex="-1" {% if page.url == item.link %}style="color: red;"{% endif %}>{{ item.name }}</a>
+                  {% endfor %}
                 </ul>
-              </li>
-              <li class="nav-item">
-                {% for item in site.data.mcgens %}
-                <a class="nav-link disabled" href="{{ item.link }}" tabindex="-1" {% if page.url == item.link %}style="color: red;"{% endif %}>{{ item.name }}</a>
-                {% endfor %}
               </li>
             </ul>
             <form class="d-flex">
