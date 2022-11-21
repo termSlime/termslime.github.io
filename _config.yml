@@ -22,6 +22,10 @@ plugins:
   - jekyll-auth
   - jekyll-manager
 
+sass:
+  style: compressed;
+  sass_dir: _sass
+
 name: termSlime
 title: termSlime
 description: a website for minecraft player

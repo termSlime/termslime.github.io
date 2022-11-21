@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+/*
+#bgs {
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  position: absolute;
+  margin: 0;
+  background-repeat: repeat;
+}
+*/
+.sourcecodelinku {
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.minecraftli {
+	color: #64ff64;
+}
+
+.robloxli {
+	color: red;
+}
+
+.ppgli {
+	color: lightgrey;
+}
+
+.mpgli {
+	color: greenyellow;
+}
+
+.pbli {
+	color: #9a9aff;
+}
+
+.material-symbols-rounded {
+	font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
+	padding: 4px;
+	margin: auto;
+}
+
+body {
+	background-color: #5b5b5b;
+	background-image: url("https://lh3.googleusercontent.com/Y_DkFQd9CSjPgKNMWKM6k7UQvgmIF9Zgu4IbMVuHZd2SyG5Owkh2_Mrv-Dixkc9ntTLLVkKw5Zc5pbc0Wbnkbw");
+	background-position: center;
+	background-size: 64px;
+	background-repeat: repeat;
+	image-rendering: pixelated;
+	margin: 0;
+}
+
+body .container {
+	backdrop-filter: blur(4px);
+	transition: 0.4s all ease-out;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 1em;
+	border-radius: 8px;
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+	justify-content: center;
+	flex: 1;
+}
+
+body .container h1 {
+	text-decoration: underline;
+	-moz-text-shadow: 0px 0px 23px rgba(255, 255, 255, 0.69);
+	-webkit-text-shadow: 0px 0px 23px rgba(255, 255, 255, 0.69);
+	-ms-text-shadow: 0px 0px 23px rgba(255, 255, 255, 0.69);
+	text-shadow: 0px 0px 23px rgba(255, 255, 255, 0.69);
+}
+
+body .container h1 a {
+	color: white;
+}
+
+body .container .result #backrgr {
+	box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+body .container .result .imageaddress {
+	color: white;
+	text-decoration: none;
+	font-family: monospace;
+	background: rgba(100, 100, 100, 0.3);
+	padding: 6px;
+	margin: 8px;
+	word-wrap: balance;
+}
+
+body .container .reloading {
+	display: flex;
+	margin: auto;
+	background: #4d4d4d;
+	color: white;
+	padding: 4px;
+	font-family: "Roboto Mono", monospace;
+	font-weight: bolder;
+	border-radius: 0.4em;
+	transition: all 0.2s cubic-bezier(0, 0.53, 0.49, 1);
+}
+
+body .container .reloading p {
+	text-align: center;
+}
+
+body .container .reloading:hover {
+	padding: 16px;
+	background: #5b5b5b;
+}
+
+body .container .reloading:active {
+	background: green;
+	padding: 8px;
+}
